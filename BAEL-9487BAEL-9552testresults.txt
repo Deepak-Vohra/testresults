@@ -1,0 +1,258 @@
+C:\spr-sched\tutorials\spring-scheduling>mvn clean compile
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -------------------< com.baeldung:spring-scheduling >-------------------
+[INFO] Building spring-scheduling 0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-scheduling ---
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-scheduling ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\spr-sched\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-scheduling ---
+[INFO] Installing C:\spr-sched\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall2018252054964836106.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-scheduling ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spring-scheduling ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 20 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[7,42] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[9,45] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Some input files use or override a deprecated API.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-scheduling >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-scheduling <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-scheduling ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.589 s
+[INFO] Finished at: 2025-11-26T15:22:55-08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\spr-sched\tutorials\spring-scheduling>mvn clean test
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -------------------< com.baeldung:spring-scheduling >-------------------
+[INFO] Building spring-scheduling 0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-scheduling ---
+[INFO] Deleting C:\spr-sched\tutorials\spring-scheduling\target
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-scheduling ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\spr-sched\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-scheduling ---
+[INFO] Installing C:\spr-sched\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall16078856847323577155.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-scheduling ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spring-scheduling ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 20 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[7,42] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[9,45] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Some input files use or override a deprecated API.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-scheduling >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-scheduling <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-scheduling ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-scheduling ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ spring-scheduling ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [debug target 8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/test/java/com/baeldung/async/AsyncAnnotationExampleIntegrationTestIT.java: Some input files use or override a deprecated API.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/test/java/com/baeldung/async/AsyncAnnotationExampleIntegrationTestIT.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-scheduling ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:03 min
+[INFO] Finished at: 2025-11-26T15:26:45-08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\spr-sched\tutorials\spring-scheduling>mvn clean verify
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -------------------< com.baeldung:spring-scheduling >-------------------
+[INFO] Building spring-scheduling 0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-scheduling ---
+[INFO] Deleting C:\spr-sched\tutorials\spring-scheduling\target
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-scheduling ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\spr-sched\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-scheduling ---
+[INFO] Installing C:\spr-sched\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall10044524205738340728.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-scheduling ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spring-scheduling ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 20 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[7,42] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[WARNING] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/springretry/DefaultListenerSupport.java:[9,45] org.springframework.retry.listener.RetryListenerSupport in org.springframework.retry.listener has been deprecated and marked for removal
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Some input files use or override a deprecated API.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/main/java/com/baeldung/scheduling/dynamic/DynamicSchedulingConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-scheduling >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-scheduling <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-scheduling ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-scheduling ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-scheduling ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ spring-scheduling ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [debug target 8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/test/java/com/baeldung/async/AsyncAnnotationExampleIntegrationTestIT.java: Some input files use or override a deprecated API.
+[INFO] /C:/spr-sched/tutorials/spring-scheduling/src/test/java/com/baeldung/async/AsyncAnnotationExampleIntegrationTestIT.java: Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-scheduling ---
+[INFO]
+[INFO] --- jar:3.4.1:jar (default-jar) @ spring-scheduling ---
+[INFO] Building jar: C:\spr-sched\tutorials\spring-scheduling\target\spring-scheduling-0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:4.0.0-M3:repackage (repackage) @ spring-scheduling ---
+[INFO] Replacing main artifact C:\spr-sched\tutorials\spring-scheduling\target\spring-scheduling-0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\spr-sched\tutorials\spring-scheduling\target\spring-scheduling-0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- failsafe:3.2.5:integration-test (default) @ spring-scheduling ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.baeldung.async.AsyncAnnotationExampleIntegrationTestIT
+WARNING: A Java agent has been loaded dynamically (C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+Invoking an asynchronous method. main
+Continue doing something else.
+Execute method asynchronously - DefaultAsync-1
+Continue doing something else.
+Continue doing something else.
+Continue doing something else.
+Continue doing something else.
+Continue doing something else.
+Result from asynchronous process - hello world !!!!
+Async Exception Detected!
+Exception message - Throw message from asynchronous method.
+Method name - asyncMethodWithExceptions
+Execute method with configured executor - CustomPool-1
+Execute method asynchronously. DefaultAsync-2
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.43 s -- in com.baeldung.async.AsyncAnnotationExampleIntegrationTestIT
+[INFO] Running com.baeldung.async.AsyncServiceUnitTestIT
+Invoking asynchronous methods. main
+Continue doing something else.
+Continue doing something else.
+Continue doing something else.
+Continue doing something else.
+Result from asynchronous process - FirstAsyncService response !!! SecondAsyncService response !!!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.056 s -- in com.baeldung.async.AsyncServiceUnitTestIT
+[INFO] Running com.baeldung.async.AsyncWithXMLIntegrationTestIT
+Execute method asynchronously. myExecutor-1
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.563 s -- in com.baeldung.async.AsyncWithXMLIntegrationTestIT
+[INFO] Running com.baeldung.springretry.SpringRetryIntegrationTestIT
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v4.0.0-M3)
+
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.10 s -- in com.baeldung.springretry.SpringRetryIntegrationTestIT
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- failsafe:3.2.5:verify (default) @ spring-scheduling ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:23 min
+[INFO] Finished at: 2025-11-26T15:29:58-08:00
+[INFO] ------------------------------------------------------------------------
