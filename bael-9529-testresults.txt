@@ -1,0 +1,570 @@
+C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query>mvn clean compile
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.8/spring-boot-dependencies-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.8/spring-boot-dependencies-3.5.8.pom (96 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/4.0.6/jaxb-bom-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/4.0.6/jaxb-bom-4.0.6.pom (12 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.29/groovy-bom-4.0.29.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.29/groovy-bom-4.0.29.pom (27 kB at 433 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.19.4/jackson-bom-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.19.4/jackson-bom-2.19.4.pom (20 kB at 327 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.11/jersey-bom-3.1.11.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.11/jersey-bom-3.1.11.pom (21 kB at 266 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.30/jetty-ee10-bom-12.0.30.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.30/jetty-ee10-bom-12.0.30.pom (9.6 kB at 204 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.30/jetty-bom-12.0.30.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.0.30/jetty-bom-12.0.30.pom (15 kB at 311 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.6/micrometer-bom-1.15.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.15.6/micrometer-bom-1.15.6.pom (8.6 kB at 109 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.6/micrometer-tracing-bom-1.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.5.6/micrometer-tracing-bom-1.5.6.pom (4.5 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.5.2/mongodb-driver-bom-5.5.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.5.2/mongodb-driver-bom-5.5.2.pom (4.2 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.128.Final/netty-bom-4.1.128.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.128.Final/netty-bom-4.1.128.Final.pom (15 kB at 189 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.0.7/pulsar-bom-4.0.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.0.7/pulsar-bom-4.0.7.pom (25 kB at 407 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.12/reactor-bom-2024.0.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.12/reactor-bom-2024.0.12.pom (4.8 kB at 102 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.2.8/spring-amqp-bom-3.2.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/3.2.8/spring-amqp-bom-3.2.8.pom (3.9 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.2.4/spring-batch-bom-5.2.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/5.2.4/spring-batch-bom-5.2.4.pom (3.2 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.6/spring-data-bom-2025.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.0.6/spring-data-bom-2025.0.6.pom (5.5 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.14/spring-framework-bom-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.14/spring-framework-bom-6.2.14.pom (5.8 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.5.4/spring-integration-bom-6.5.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/6.5.4/spring-integration-bom-6.5.4.pom (10 kB at 166 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.12/spring-pulsar-bom-1.2.12.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/1.2.12/spring-pulsar-bom-1.2.12.pom (2.9 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/restdocs/spring-restdocs-bom/3.0.5/spring-restdocs-bom-3.0.5.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/restdocs/spring-restdocs-bom/3.0.5/spring-restdocs-bom-3.0.5.pom (2.6 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.7/spring-security-bom-6.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.5.7/spring-security-bom-6.5.7.pom (5.3 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.5.3/spring-session-bom-3.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/3.5.3/spring-session-bom-3.5.3.pom (2.9 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-bom/4.1.2/spring-ws-bom-4.1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-bom/4.1.2/spring-ws-bom-4.1.2.pom (2.3 kB at 50 kB/s)
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -----------------< com.baeldung:spring-data-jpa-query >-----------------
+[INFO] Building spring-data-jpa-query 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.8/spring-boot-maven-plugin-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.8/spring-boot-maven-plugin-3.5.8.pom (4.0 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.8/spring-boot-maven-plugin-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.5.8/spring-boot-maven-plugin-3.5.8.jar (139 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.5.8/spring-boot-starter-data-jpa-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.5.8/spring-boot-starter-data-jpa-3.5.8.pom (2.9 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.8/spring-boot-starter-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.8/spring-boot-starter-3.5.8.pom (3.0 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.8/spring-boot-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.8/spring-boot-3.5.8.pom (2.2 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.14/spring-core-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.14/spring-core-6.2.14.pom (2.0 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.pom (1.8 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.14/spring-context-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.14/spring-context-6.2.14.pom (2.8 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.pom (2.2 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.pom (2.0 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.pom (2.1 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.6/micrometer-observation-1.15.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.6/micrometer-observation-1.15.6.pom (3.8 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.6/micrometer-commons-1.15.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.6/micrometer-commons-1.15.6.pom (3.4 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.8/spring-boot-autoconfigure-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.8/spring-boot-autoconfigure-3.5.8.pom (2.1 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.8/spring-boot-starter-logging-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.8/spring-boot-starter-logging-3.5.8.pom (2.5 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.5.8/spring-boot-starter-jdbc-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.5.8/spring-boot-starter-jdbc-3.5.8.pom (2.5 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.pom (29 kB at 367 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.pom (2.4 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.pom (2.2 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.7.1/classmate-1.7.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.7.1/classmate-1.7.1.pom (6.6 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.pom (11 kB at 349 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.6/jaxb-runtime-parent-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.6/jaxb-runtime-parent-4.0.6.pom (1.2 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.6/jaxb-parent-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.6/jaxb-parent-4.0.6.pom (35 kB at 556 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.6/jaxb-bom-ext-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.6/jaxb-bom-ext-4.0.6.pom (3.5 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.pom (3.7 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.pom (4.0 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.3/angus-activation-project-2.0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.3/angus-activation-project-2.0.3.pom (21 kB at 444 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.pom (1.8 kB at 56 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.6/jaxb-txw-parent-4.0.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.6/jaxb-txw-parent-4.0.6.pom (1.2 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.5.6/spring-data-jpa-3.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.5.6/spring-data-jpa-3.5.6.pom (12 kB at 160 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.5.6/spring-data-jpa-parent-3.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.5.6/spring-data-jpa-parent-3.5.6.pom (5.2 kB at 111 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.6/spring-data-parent-3.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.6/spring-data-parent-3.5.6.pom (43 kB at 698 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.5.6/spring-data-build-3.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.5.6/spring-data-build-3.5.6.pom (7.1 kB at 151 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.13/spring-framework-bom-6.2.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.13/spring-framework-bom-6.2.13.pom (5.8 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.9.0/kotlinx-coroutines-bom-1.9.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.9.0/kotlinx-coroutines-bom-1.9.0.pom (4.3 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.5.6/spring-data-commons-3.5.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.5.6/spring-data-commons-3.5.6.pom (10 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.pom (2.6 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.pom (2.0 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.pom (3.2 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.7/spring-security-crypto-6.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.7/spring-security-crypto-6.5.7.pom (1.9 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.pom (23 kB at 145 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.4/jackson-base-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.4/jackson-base-2.19.4.pom (12 kB at 190 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.pom (6.9 kB at 150 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.pom (9.4 kB at 200 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.38.Final/hibernate-core-6.6.38.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.38.Final/hibernate-core-6.6.38.Final.pom (5.8 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-envers/6.6.38.Final/hibernate-envers-6.6.38.Final.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-envers/6.6.38.Final/hibernate-envers-6.6.38.Final.pom (4.1 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.5.7/spring-security-test-6.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.5.7/spring-security-test-6.5.7.pom (2.7 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.pom (3.2 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.14/spring-web-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.14/spring-web-6.2.14.pom (2.4 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.14/spring-test-6.2.14.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.14/spring-test-6.2.14.pom (2.1 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.8/spring-boot-starter-test-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.8/spring-boot-starter-test-3.5.8.pom (4.9 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.8/spring-boot-test-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.8/spring-boot-test-3.5.8.pom (2.2 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.8/spring-boot-test-autoconfigure-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.8/spring-boot-test-autoconfigure-3.5.8.pom (2.5 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.5.8/spring-boot-starter-data-jpa-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.5.8/spring-boot-starter-data-jpa-3.5.8.jar (4.8 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.8/spring-boot-starter-3.5.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.8/spring-boot-3.5.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.5.8/spring-boot-starter-jdbc-3.5.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.8/spring-boot-starter-logging-3.5.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.8/spring-boot-autoconfigure-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.8/spring-boot-starter-3.5.8.jar (4.8 kB at 6.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.8/spring-boot-starter-logging-3.5.8.jar (4.8 kB at 2.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.jar (172 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.5.6/spring-data-jpa-3.5.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.5.8/spring-boot-starter-jdbc-3.5.8.jar (4.8 kB at 2.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.5.6/spring-data-commons-3.5.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar (475 kB at 177 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar (235 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.8/spring-boot-3.5.8.jar (1.9 MB at 687 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.5.6/spring-data-jpa-3.5.6.jar (1.8 MB at 660 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar (50 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.7/spring-security-crypto-6.5.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar (286 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.7/spring-security-core-6.5.7.jar (623 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.5.7/spring-security-crypto-6.5.7.jar (105 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar (420 kB at 113 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar (891 kB at 233 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar (25 kB at 6.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar (1.4 MB at 353 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.6/micrometer-observation-1.15.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.6/micrometer-observation-1.15.6.jar (75 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.6/micrometer-commons-1.15.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar (318 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.6/micrometer-commons-1.15.6.jar (49 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.jar (79 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.8/spring-boot-autoconfigure-3.5.8.jar (2.1 MB at 534 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.38.Final/hibernate-core-6.6.38.Final.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.5.6/spring-data-commons-3.5.6.jar (1.5 MB at 331 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar (68 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar (2.0 MB at 428 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.jar (591 kB at 127 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar (138 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar (27 kB at 5.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-envers/6.6.38.Final/hibernate-envers-6.6.38.Final.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar (73 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.5.7/spring-security-test-6.5.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar (920 kB at 196 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.5.7/spring-security-test-6.5.7.jar (136 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.jar (1.7 MB at 356 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-envers/6.6.38.Final/hibernate-envers-6.6.38.Final.jar (609 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.8/spring-boot-starter-test-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.7/spring-security-web-6.5.7.jar (1.1 MB at 208 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.8/spring-boot-test-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.8/spring-boot-starter-test-3.5.8.jar (4.8 kB at 949 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.8/spring-boot-test-autoconfigure-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.8/spring-boot-test-3.5.8.jar (257 kB at 51 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.8/spring-boot-test-autoconfigure-3.5.8.jar (230 kB at 45 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar (2.1 MB at 409 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar (1.0 MB at 201 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.38.Final/hibernate-core-6.6.38.Final.jar (12 MB at 2.3 MB/s)
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-data-jpa-query ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\bael-9429\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-data-jpa-query ---
+[INFO] Installing C:\bael-9429\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall2603965929264498464.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.0:resources (default-resources) @ spring-data-jpa-query ---
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 71 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[8,33] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[73,6] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use or override a deprecated API.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-data-jpa-query >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-data-jpa-query <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:06 min
+[INFO] Finished at: 2025-12-02T03:05:33-08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query>mvn clean test
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -----------------< com.baeldung:spring-data-jpa-query >-----------------
+[INFO] Building spring-data-jpa-query 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-jpa-query ---
+[INFO] Deleting C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query\target
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-data-jpa-query ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\bael-9429\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-data-jpa-query ---
+[INFO] Installing C:\bael-9429\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall17612318466251285700.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.0:resources (default-resources) @ spring-data-jpa-query ---
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 71 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[8,33] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[73,6] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use or override a deprecated API.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-data-jpa-query >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-data-jpa-query <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ spring-data-jpa-query ---
+[INFO] Copying 7 resources
+[INFO]
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug target 8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/test/java/com/baeldung/criteriaquery/CriteriaQueryIntegrationTest.java:[36,47] <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification has been deprecated and marked for removal
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-data-jpa-query ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.884 s
+[INFO] Finished at: 2025-12-02T03:06:28-08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query>mvn clean verify
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -----------------< com.baeldung:spring-data-jpa-query >-----------------
+[INFO] Building spring-data-jpa-query 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-jpa-query ---
+[INFO] Deleting C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query\target
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-data-jpa-query ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\bael-9429\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-data-jpa-query ---
+[INFO] Installing C:\bael-9429\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall2054245522365918099.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.0:resources (default-resources) @ spring-data-jpa-query ---
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 71 source files with javac [debug target 8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[8,33] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[73,6] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use or override a deprecated API.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/view/FetchingAppView.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-data-jpa-query >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-data-jpa-query <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ spring-data-jpa-query ---
+[INFO] Copying 7 resources
+[INFO]
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug target 8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /C:/bael-9429/tutorials/persistence-modules/spring-data-jpa-query/src/test/java/com/baeldung/criteriaquery/CriteriaQueryIntegrationTest.java:[36,47] <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification has been deprecated and marked for removal
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ spring-data-jpa-query ---
+[INFO] Building jar: C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.5.8:repackage (repackage) @ spring-data-jpa-query ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.5.8/spring-boot-buildpack-platform-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.5.8/spring-boot-buildpack-platform-3.5.8.pom (3.2 kB at 3.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.pom (4.4 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.4/jackson-modules-java8-2.19.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.4/jackson-modules-java8-2.19.4.pom (3.1 kB at 8.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.pom (6.1 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.5.1/httpclient5-parent-5.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.5.1/httpclient5-parent-5.5.1.pom (17 kB at 133 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.0/junit-bom-5.13.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.0/junit-bom-5.13.0.pom (5.6 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.pom (3.9 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.6/httpcore5-parent-5.3.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.6/httpcore5-parent-5.3.6.pom (14 kB at 179 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.pom (3.6 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.5.8/spring-boot-loader-tools-3.5.8.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.5.8/spring-boot-loader-tools-3.5.8.pom (2.2 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.pom (3.8 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.pom (3.4 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.5.8/spring-boot-buildpack-platform-3.5.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.5.8/spring-boot-buildpack-platform-3.5.8.jar (323 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.5.8/spring-boot-loader-tools-3.5.8.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.jar (10 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar (243 kB at 323 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar (48 kB at 63 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar (75 kB at 96 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar (909 kB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar (959 kB at 1.2 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.5.8/spring-boot-loader-tools-3.5.8.jar (465 kB at 584 kB/s)
+[INFO] Replacing main artifact C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- failsafe:3.2.5:integration-test (default) @ spring-data-jpa-query ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTestIT
+[2025-12-02 03:07:46,212]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 03:07:46,556]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 290 ms. Found 1 JPA repository interface.
+[2025-12-02 03:07:47,415]-[main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceTestConfig' of type [com.baeldung.persistence.config.PersistenceTestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+[2025-12-02 03:07:48,275]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 03:07:48,525]-[main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
+[2025-12-02 03:07:48,665]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 03:07:49,165]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 03:07:50,478]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 03:07:51,853]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 03:07:52,228]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@376e7531']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 03:07:53,462]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 03:07:53,462]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 03:07:56,915]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 03:07:57,947]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 03:07:58,040]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 03:07:58,040]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 03:07:58,040]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@376e7531']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 03:07:58,056]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 03:07:58,134]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 03:07:58,150]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 03:07:58,306]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+WARNING: A Java agent has been loaded dynamically (C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[2025-12-02 03:08:01,728]-[main] INFO  com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTestIT - setUp()
+Dec 02, 2025 3:08:02 AM com.baeldung.persistence.model.Bar onPrePersist
+INFO: @PrePersist
+Dec 02, 2025 3:08:02 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+Dec 02, 2025 3:08:02 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+Dec 02, 2025 3:08:02 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+[2025-12-02 03:08:03,681]-[main] INFO  com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTestIT - tearDown()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.81 s -- in com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTestIT
+[INFO] Running com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT
+[2025-12-02 03:08:03,775]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT - setUpBeforeClass()
+[2025-12-02 03:08:03,790]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT - setUp()
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPrePersist
+INFO: @PrePersist
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPrePersist
+INFO: @PrePersist
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPreRemove
+INFO: @PreRemove
+Dec 02, 2025 3:08:03 AM com.baeldung.persistence.model.Bar onPreRemove
+INFO: @PreRemove
+[2025-12-02 03:08:04,009]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT - tearDown()
+[2025-12-02 03:08:04,056]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT - tearDownAfterClass()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 s -- in com.baeldung.persistence.audit.JPABarAuditIntegrationTestIT
+[INFO] Running com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT
+[2025-12-02 03:08:04,087]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT - setUpBeforeClass()
+[2025-12-02 03:08:04,150]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT - setUp()
+Dec 02, 2025 3:08:04 AM com.baeldung.persistence.model.Bar onPrePersist
+INFO: @PrePersist
+Dec 02, 2025 3:08:04 AM com.baeldung.persistence.model.Bar onPreUpdate
+INFO: @PreUpdate
+[2025-12-02 03:08:04,244]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT - tearDown()
+[2025-12-02 03:08:04,259]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT - tearDownAfterClass()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 s -- in com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTestIT
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- failsafe:3.2.5:verify (default) @ spring-data-jpa-query ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:22 min
+[INFO] Finished at: 2025-12-02T03:08:04-08:00
+[INFO] ------------------------------------------------------------------------
