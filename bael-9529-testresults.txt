@@ -1,3 +1,637 @@
+C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query>mvn clean install -Pdefault
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -----------------< com.baeldung:spring-data-jpa-query >-----------------
+[INFO] Building spring-data-jpa-query 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-data-jpa-query ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\BAEL-9529\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-data-jpa-query ---
+[INFO] Installing C:\BAEL-9529\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall10419809550249998318.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.0:resources (default-resources) @ spring-data-jpa-query ---
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 71 source files with javac [debug target 21] to target\classes
+[WARNING] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[73,6] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/dao/common/AbstractHibernateDao.java: Some input files use or override a deprecated API.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/dao/common/AbstractHibernateDao.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/model/UserLazy.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/model/UserLazy.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-data-jpa-query >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-data-jpa-query <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ spring-data-jpa-query ---
+[INFO] Copying 7 resources
+[INFO]
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug target 21] to target\test-classes
+[WARNING] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/test/java/com/baeldung/criteriaquery/CriteriaQueryIntegrationTest.java:[36,47] <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification has been deprecated and marked for removal
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ spring-data-jpa-query ---
+[INFO] Building jar: C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.5.8:repackage (repackage) @ spring-data-jpa-query ---
+[INFO] Replacing main artifact C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- install:3.1.2:install (default-install) @ spring-data-jpa-query ---
+[INFO] Installing C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\pom.xml to C:\Users\Administrator\.m2\repository\com\baeldung\spring-data-jpa-query\0.0.1-SNAPSHOT\spring-data-jpa-query-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\baeldung\spring-data-jpa-query\0.0.1-SNAPSHOT\spring-data-jpa-query-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  59.862 s
+[INFO] Finished at: 2025-12-02T15:10:19-08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query>mvn clean install -Pintegration
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+[INFO]
+[INFO] -----------------< com.baeldung:spring-data-jpa-query >-----------------
+[INFO] Building spring-data-jpa-query 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-jpa-query ---
+[INFO] Deleting C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target
+[INFO]
+[INFO] --- directory:1.0:directory-of (directories) @ spring-data-jpa-query ---
+[INFO] Directory of com.baeldung:parent-modules set to: C:\BAEL-9529\tutorials
+[INFO]
+[INFO] --- install:3.1.2:install-file (install-jar-lib) @ spring-data-jpa-query ---
+[INFO] Installing C:\BAEL-9529\tutorials\custom-pmd-0.0.1.jar to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.jar
+[INFO] Installing C:\Users\ADMINI~1\AppData\Local\Temp\mvninstall1526513884958063664.pom to C:\Users\Administrator\.m2\repository\org\baeldung\pmd\custom-pmd\0.0.1\custom-pmd-0.0.1.pom
+[INFO]
+[INFO] --- resources:3.3.0:resources (default-resources) @ spring-data-jpa-query ---
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 71 source files with javac [debug target 21] to target\classes
+[WARNING] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/model/Bar.java:[73,6] org.hibernate.annotations.OrderBy in org.hibernate.annotations has been deprecated and marked for removal
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/dao/common/AbstractHibernateDao.java: Some input files use or override a deprecated API.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/persistence/dao/common/AbstractHibernateDao.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/model/UserLazy.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/main/java/com/baeldung/hibernate/fetching/model/UserLazy.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] >>> pmd:3.26.0:check (default) > :pmd @ spring-data-jpa-query >>>
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (pmd) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] <<< pmd:3.26.0:check (default) < :pmd @ spring-data-jpa-query <<<
+[INFO]
+[INFO]
+[INFO] --- pmd:3.26.0:check (default) @ spring-data-jpa-query ---
+[INFO]
+[INFO] --- pmd:3.26.0:pmd (default) @ spring-data-jpa-query ---
+[INFO] PMD version: 7.7.0
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO]
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ spring-data-jpa-query ---
+[INFO] Copying 7 resources
+[INFO]
+[INFO] --- compiler:3.12.1:testCompile (default-testCompile) @ spring-data-jpa-query ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug target 21] to target\test-classes
+[WARNING] /C:/BAEL-9529/tutorials/persistence-modules/spring-data-jpa-query/src/test/java/com/baeldung/criteriaquery/CriteriaQueryIntegrationTest.java:[36,47] <T>where(org.springframework.data.jpa.domain.Specification<T>) in org.springframework.data.jpa.domain.Specification has been deprecated and marked for removal
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ spring-data-jpa-query ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[2025-12-02 15:11:12,026]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.criteriaquery.CriteriaQueryIntegrationTest]: CriteriaQueryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:13,529]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.criteriaquery.CriteriaQueryIntegrationTest
+[2025-12-02 15:11:13,779]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.datetime.ArticleRepositoryIntegrationTest]: ArticleRepositoryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:13,942]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.datetime.ArticleRepositoryIntegrationTest
+[2025-12-02 15:11:13,986]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.joins.JpaJoinsIntegrationTest]: JpaJoinsIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:14,095]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.joins.JpaJoinsIntegrationTest
+[2025-12-02 15:11:14,267]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.specifications.join.SpecificationsJoinIntegrationTest]: SpecificationsJoinIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:14,366]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.specifications.join.SpecificationsJoinIntegrationTest
+[INFO] Running com.baeldung.hibernate.fetching.HibernateFetchingIntegrationTest
+[2025-12-02 15:11:23,766]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.criteriaquery.CriteriaQueryIntegrationTest]: CriteriaQueryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:24,244]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.datetime.ArticleRepositoryIntegrationTest]: ArticleRepositoryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:24,682]-[main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
+[2025-12-02 15:11:25,041]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.criteriaquery.CriteriaQueryIntegrationTest
+[2025-12-02 15:11:25,821]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.datetime.ArticleRepositoryIntegrationTest
+[INFO] Running com.baeldung.criteriaquery.CriteriaQueryIntegrationTest
+[INFO] Running com.baeldung.datetime.ArticleRepositoryIntegrationTest
+[2025-12-02 15:11:27,793]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:29,391]-[main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[2025-12-02 15:11:29,447]-[main] WARN  org.springframework.boot.logging.logback.LogbackLoggingSystem - Ignoring 'logback.configurationFile' system property. Please use 'logging.config' instead.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.8)
+
+[2025-12-02 15:11:30,485]-[main] INFO  com.baeldung.criteriaquery.CriteriaQueryIntegrationTest - Starting CriteriaQueryIntegrationTest using Java 21.0.7 with PID 6376 (started by Administrator in C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query)
+[2025-12-02 15:11:30,417]-[main] WARN  org.springframework.boot.logging.logback.LogbackLoggingSystem - Ignoring 'logback.configurationFile' system property. Please use 'logging.config' instead.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[2025-12-02 15:11:30,584]-[main] INFO  com.baeldung.criteriaquery.CriteriaQueryIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+ :: Spring Boot ::                (v3.5.8)
+
+[2025-12-02 15:11:32,420]-[main] INFO  com.baeldung.datetime.ArticleRepositoryIntegrationTest - Starting ArticleRepositoryIntegrationTest using Java 21.0.7 with PID 8 (started by Administrator in C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query)
+[2025-12-02 15:11:32,423]-[main] INFO  com.baeldung.datetime.ArticleRepositoryIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[2025-12-02 15:11:32,759]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:11:34,375]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [jdbc:h2:mem:testdb]
+        Database driver: org.h2.Driver
+        Database version: 2.3.232
+        Autocommit mode: false
+        Isolation level: undefined/unknown
+        Minimum pool size: 1
+        Maximum pool size: 20
+[2025-12-02 15:11:34,739]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:36,898]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:11:37,894]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:11:38,391]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1451 ms. Found 5 JPA repository interfaces.
+[2025-12-02 15:11:38,917]-[main] INFO  org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+[2025-12-02 15:11:39,285]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1285 ms. Found 5 JPA repository interfaces.
+[2025-12-02 15:11:40,683]-[main] INFO  org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+[2025-12-02 15:11:41,259]-[main] INFO  org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:5c38ed30-8815-4d8c-b41d-8f5551f7cf38;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2025-12-02 15:11:42,431]-[main] INFO  org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:33780e11-879b-4b51-ae3c-834f49da0f5c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2025-12-02 15:11:44,299]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:11:45,143]-[main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
+[2025-12-02 15:11:45,722]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:11:45,656]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:46,486]-[main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
+[2025-12-02 15:11:46,596]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:46,821]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:47,616]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:48,639]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:11:48,760]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:11:48,917]-[main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b2db389] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2025-12-02 15:11:49,583]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@1124910c']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:11:50,985]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:11:51,346]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:51,424]-[main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[2025-12-02 15:11:51,435]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:11:51,436]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [jdbc:h2:mem:testdb]
+        Database driver: org.h2.Driver
+        Database version: 2.3.232
+        Autocommit mode: false
+        Isolation level: undefined/unknown
+        Minimum pool size: 1
+        Maximum pool size: 20
+[2025-12-02 15:11:51,456]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:52,079]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@27d73d22']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:11:52,098]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:11:52,098]-[main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56f84c9b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2025-12-02 15:11:53,435]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:11:53,439]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:11:54,685]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:54,709]-[main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[2025-12-02 15:11:54,713]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:11:54,714]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [jdbc:h2:mem:testdb]
+        Database driver: org.h2.Driver
+        Database version: 2.3.232
+        Autocommit mode: false
+        Isolation level: undefined/unknown
+        Minimum pool size: 1
+        Maximum pool size: 20
+[2025-12-02 15:11:54,723]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:55,025]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:11:55,029]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:11:55,076]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:11:55,079]-[main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e5c7588] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2025-12-02 15:11:55,432]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:11:55,443]-[main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[2025-12-02 15:11:55,449]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:11:55,450]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [jdbc:h2:mem:testdb]
+        Database driver: org.h2.Driver
+        Database version: 2.3.232
+        Autocommit mode: false
+        Isolation level: undefined/unknown
+        Minimum pool size: 1
+        Maximum pool size: 20
+[2025-12-02 15:11:55,474]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:11:55,729]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:11:55,730]-[main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@582ca1e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.18 s -- in com.baeldung.hibernate.fetching.HibernateFetchingIntegrationTest
+[2025-12-02 15:11:56,859]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.joins.JpaJoinsIntegrationTest]: JpaJoinsIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:11:58,009]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.joins.JpaJoinsIntegrationTest
+[INFO] Running com.baeldung.joins.JpaJoinsIntegrationTest
+[2025-12-02 15:11:59,869]-[main] INFO  org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.baeldung.boot.passenger.Passenger (class must be instantiated by Interceptor)
+[2025-12-02 15:12:01,292]-[main] INFO  org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.baeldung.boot.passenger.Passenger (class must be instantiated by Interceptor)
+[2025-12-02 15:12:01,268]-[main] WARN  org.springframework.boot.logging.logback.LogbackLoggingSystem - Ignoring 'logback.configurationFile' system property. Please use 'logging.config' instead.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.8)
+
+[2025-12-02 15:12:01,874]-[main] INFO  com.baeldung.joins.JpaJoinsIntegrationTest - Starting JpaJoinsIntegrationTest using Java 21.0.7 with PID 1824 (started by Administrator in C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query)
+[2025-12-02 15:12:01,877]-[main] INFO  com.baeldung.joins.JpaJoinsIntegrationTest - The following 1 profile is active: "joins"
+[2025-12-02 15:12:02,855]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:03,819]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:04,902]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:12:05,494]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:06,432]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1444 ms. Found 5 JPA repository interfaces.
+[2025-12-02 15:12:06,717]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:07,267]-[main] INFO  org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+[2025-12-02 15:12:08,817]-[main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2025-12-02 15:12:08,864]-[main] INFO  org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:8b3e9848-1875-4684-9a72-ec31f851435c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2025-12-02 15:12:09,538]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:12:09,755]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:09,605]-[main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+[2025-12-02 15:12:09,873]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:10,015]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:12:10,362]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@7c5fbde4']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:12,503]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:12,510]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:13,192]-[main] INFO  com.baeldung.criteriaquery.CriteriaQueryIntegrationTest - Started CriteriaQueryIntegrationTest in 46.236 seconds (process running for 58.131)
+[2025-12-02 15:12:15,213]-[main] INFO  com.baeldung.datetime.ArticleRepositoryIntegrationTest - Started ArticleRepositoryIntegrationTest in 47.534 seconds (process running for 60.173)
+[2025-12-02 15:12:15,451]-[main] INFO  org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.baeldung.boot.passenger.Passenger (class must be instantiated by Interceptor)
+[2025-12-02 15:12:16,062]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:16,600]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARNING: A Java agent has been loaded dynamically (C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended[2025-12-02 15:12:19,250]-[main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.87 s -- in com.baeldung.criteriaquery.CriteriaQueryIntegrationTest
+[INFO] Running com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTest
+[2025-12-02 15:12:23,821]-[main] INFO  com.baeldung.joins.JpaJoinsIntegrationTest - Started JpaJoinsIntegrationTest in 25.194 seconds (process running for 68.635)
+[2025-12-02 15:12:24,297]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:12:24,461]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interface.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.59 s -- in com.baeldung.datetime.ArticleRepositoryIntegrationTest
+[INFO] Running com.baeldung.persistence.audit.JPABarAuditIntegrationTest
+[2025-12-02 15:12:25,036]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTest - setUpBeforeClass()
+[2025-12-02 15:12:25,324]-[main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceTestConfig' of type [com.baeldung.persistence.config.PersistenceTestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+[2025-12-02 15:12:25,917]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:12:25,781]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:12:25,953]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:25,970]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:26,027]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+[2025-12-02 15:12:26,395]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:12:26,728]-[main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceTestConfig' of type [com.baeldung.persistence.config.PersistenceTestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+[2025-12-02 15:12:27,016]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:12:27,112]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:27,180]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:27,806]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:12:27,817]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:12:27,875]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@51653509']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:28,050]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:28,051]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:28,956]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+WARNING: A Java agent has been loaded dynamically (C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[2025-12-02 15:12:28,996]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:29,116]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:29,193]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:12:29,207]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@546f0f36']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:29,127]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:12:29,132]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@51653509']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:29,358]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:29,359]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:29,152]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:29,405]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:29,407]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:30,032]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:30,099]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:30,288]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:30,631]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:30,646]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:12:30,646]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@546f0f36']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:30,775]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:31,029]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:31,031]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:32,945]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:33,247]-[main] INFO  com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTest - setUp()
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[2025-12-02 15:12:33,949]-[main] INFO  class com.baeldung.persistence.model.Bar - @PrePersist
+[2025-12-02 15:12:34,274]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+[2025-12-02 15:12:34,442]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+[2025-12-02 15:12:34,531]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+[2025-12-02 15:12:34,827]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTest - setUp()
+[2025-12-02 15:12:35,257]-[main] INFO  class com.baeldung.persistence.model.Bar - @PrePersist
+[2025-12-02 15:12:36,622]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+[2025-12-02 15:12:36,800]-[main] INFO  com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTest - tearDown()
+[WARNING] Tests run: 11, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 38.19 s -- in com.baeldung.joins.JpaJoinsIntegrationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.35 s -- in com.baeldung.persistence.audit.EnversFooBarAuditIntegrationTest
+[2025-12-02 15:12:36,817]-[main] INFO  class com.baeldung.persistence.model.Bar - @PrePersist
+[2025-12-02 15:12:36,837]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+[INFO] Running com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest
+[2025-12-02 15:12:37,108]-[main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.baeldung.specifications.join.SpecificationsJoinIntegrationTest]: SpecificationsJoinIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2025-12-02 15:12:36,918]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreRemove
+[2025-12-02 15:12:37,012]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreRemove
+[2025-12-02 15:12:37,321]-[main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.baeldung.Application for test class com.baeldung.specifications.join.SpecificationsJoinIntegrationTest
+[INFO] Running com.baeldung.specifications.join.SpecificationsJoinIntegrationTest
+[2025-12-02 15:12:37,138]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest - setUpBeforeClass()
+[2025-12-02 15:12:37,034]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTest - tearDown()
+[2025-12-02 15:12:37,050]-[main] INFO  com.baeldung.persistence.audit.JPABarAuditIntegrationTest - tearDownAfterClass()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.02 s -- in com.baeldung.persistence.audit.JPABarAuditIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.8)
+
+[2025-12-02 15:12:38,329]-[main] INFO  com.baeldung.specifications.join.SpecificationsJoinIntegrationTest - Starting SpecificationsJoinIntegrationTest using Java 21.0.7 with PID 6376 (started by Administrator in C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query)
+[2025-12-02 15:12:38,329]-[main] INFO  com.baeldung.specifications.join.SpecificationsJoinIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+[2025-12-02 15:12:38,608]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:12:38,706]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+[2025-12-02 15:12:39,147]-[main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceTestConfig' of type [com.baeldung.persistence.config.PersistenceTestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+[2025-12-02 15:12:39,541]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:12:39,497]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-12-02 15:12:40,305]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:40,323]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:40,464]-[main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 963 ms. Found 5 JPA repository interfaces.
+[2025-12-02 15:12:40,612]-[main] INFO  org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+[2025-12-02 15:12:40,804]-[main] INFO  org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:9b714b22-2b44-4c11-9fb7-dfcc594a80d0;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2025-12-02 15:12:40,706]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:12:41,813]-[main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-12-02 15:12:41,875]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:41,939]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+[2025-12-02 15:12:41,967]-[main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-12-02 15:12:41,981]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@632f505b']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:42,223]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-12-02 15:12:42,252]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@236ec794']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:42,386]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:42,324]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:42,330]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:42,388]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+[2025-12-02 15:12:42,595]-[main] INFO  org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.baeldung.boot.passenger.Passenger (class must be instantiated by Interceptor)
+Hibernate: create global temporary table "HTE_article"("id" integer, "publication_date" date, "publication_time" time(6), rn_ integer not null, "creation_date_time" timestamp(6), primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:42,889]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-12-02 15:12:42,965]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+Hibernate: create global temporary table "HTE_bar"("id" integer, rn_ integer not null, "created_date" bigint, "modified_date" bigint, "timestamp" bigint, "created_by" varchar(255), "modified_by" varchar(255), "name" varchar(255), "operation" varchar(255), primary key (rn_)) TRANSACTIONAL
+Hibernate: create global temporary table "HTE_foo"("bar_id" integer, rn_ integer not null, "id" bigint, "name" varchar(255), primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:43,036]-[main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-12-02 15:12:43,101]-[main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+Hibernate: create global temporary table "HTE_person"(rn_ integer not null, "id" bigint, "name" varchar(255), primary key (rn_)) TRANSACTIONAL
+Hibernate: create global temporary table "HTE_user"(rn_ integer not null, "user_id" bigint, primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:43,102]-[main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+        Database JDBC URL [Connecting through datasource 'org.apache.commons.dbcp2.BasicDataSource@236ec794']
+        Database driver: undefined/unknown
+        Database version: 2.3.232
+        Autocommit mode: undefined/unknown
+        Isolation level: undefined/unknown
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+[2025-12-02 15:12:43,113]-[main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+Hibernate: create global temporary table "HTE_department"(rn_ integer not null, "id" bigint, "name" varchar(255), primary key (rn_)) TRANSACTIONAL
+Hibernate: create global temporary table "HTE_parent"(rn_ integer not null, "child_fk" bigint, "id" bigint, primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:43,321]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Foo
+[2025-12-02 15:12:43,324]-[main] INFO  org.hibernate.envers.configuration.internal.metadata.AuditMetadataGenerator - Adding properties for entity: com.baeldung.persistence.model.Bar
+Hibernate: create global temporary table "HTE_child"(rn_ integer not null, "id" bigint, primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:44,044]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create global temporary table "HTE_user_order"(rn_ integer not null, "order_id" bigint, primary key (rn_)) TRANSACTIONAL
+Hibernate: create global temporary table "HTE_passenger"("seat_number" integer, rn_ integer not null, "id" bigint, "first_name" varchar(255), "last_name" varchar(255), primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:45,394]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest - setUp()
+Hibernate: create global temporary table "HTE_book"(rn_ integer not null, "id" bigint, "author" varchar(255), "title" varchar(255), primary key (rn_)) TRANSACTIONAL
+Hibernate: create global temporary table "HTE_user"(rn_ integer not null, "user_id" bigint, primary key (rn_)) TRANSACTIONAL
+[2025-12-02 15:12:43,061]-[main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists "article" cascade
+Hibernate: drop table if exists "author" cascade
+Hibernate: drop table if exists "author_book_author_entities" cascade
+Hibernate: drop table if exists "bar" cascade
+Hibernate: drop table if exists "book" cascade
+Hibernate: drop table if exists "book_author_entity" cascade
+Hibernate: drop table if exists "child" cascade
+Hibernate: drop table if exists "department" cascade
+Hibernate: drop table if exists "foo" cascade
+Hibernate: drop table if exists "parent" cascade
+Hibernate: drop table if exists "passenger" cascade
+Hibernate: drop table if exists "person" cascade
+Hibernate: drop table if exists "phone" cascade
+Hibernate: drop table if exists "revinfo" cascade
+Hibernate: drop table if exists "user" cascade
+Hibernate: drop table if exists "user_order" cascade
+Hibernate: drop table if exists "user_order_detail" cascade
+Hibernate: drop table if exists "bar_aud" cascade
+Hibernate: drop table if exists "foo_aud" cascade
+Hibernate: drop table if exists "joins_employee" cascade
+Hibernate: drop sequence if exists "article_seq"
+Hibernate: drop sequence if exists "bar_seq"
+Hibernate: drop sequence if exists "book_seq"
+Hibernate: drop sequence if exists "child_seq"
+Hibernate: drop sequence if exists "department_seq"
+Hibernate: drop sequence if exists "foo_seq"
+Hibernate: drop sequence if exists "parent_seq"
+Hibernate: drop sequence if exists "passenger_seq"
+Hibernate: drop sequence if exists "person_seq"
+Hibernate: drop sequence if exists "user_seq"
+Hibernate: drop sequence if exists "user_order_seq"
+Hibernate: create sequence "article_seq" start with 1 increment by 50
+Hibernate: create sequence "bar_seq" start with 1 increment by 50
+Hibernate: create sequence "book_seq" start with 1 increment by 50
+Hibernate: create sequence "child_seq" start with 1 increment by 50
+Hibernate: create sequence "department_seq" start with 1 increment by 50
+Hibernate: create sequence "foo_seq" start with 1 increment by 50
+Hibernate: create sequence "parent_seq" start with 1 increment by 50
+Hibernate: create sequence "passenger_seq" start with 1 increment by 50
+Hibernate: create sequence "person_seq" start with 1 increment by 50
+Hibernate: create sequence "user_seq" start with 1 increment by 50
+Hibernate: create sequence "user_order_seq" start with 1 increment by 50
+Hibernate: create table "article" ("id" integer not null, "publication_date" date, "publication_time" time(6), "creation_date_time" timestamp(6), primary key ("id"))
+Hibernate: create table "author" ("id" bigint generated by default as identity, "first_name" varchar(255), "last_name" varchar(255), primary key ("id"))
+Hibernate: create table "author_book_author_entities" ("author_id" bigint not null, "book_author_entities_id" bigint not null unique)
+Hibernate: create table "bar" ("id" integer not null, "created_date" bigint not null, "modified_date" bigint, "timestamp" bigint, "created_by" varchar(255), "modified_by" varchar(255), "name" varchar(255), "operation" varchar(255), primary key ("id"))
+Hibernate: create table "book" ("id" bigint not null, "author" varchar(255), "title" varchar(255), primary key ("id"))
+Hibernate: create table "book_author_entity" ("id" bigint generated by default as identity, "title" varchar(255), primary key ("id"))
+Hibernate: create table "child" ("id" bigint not null, primary key ("id"))
+[2025-12-02 15:12:45,701]-[main] INFO  class com.baeldung.persistence.model.Bar - @PrePersist
+Hibernate: create table "department" ("id" bigint not null, "name" varchar(255), primary key ("id"))
+Hibernate: create table "foo" ("bar_id" integer, "id" bigint not null, "name" varchar(255), primary key ("id"))
+Hibernate: create table "parent" ("child_fk" bigint unique, "id" bigint not null, primary key ("id"))
+Hibernate: create table "passenger" ("seat_number" integer not null, "id" bigint not null, "first_name" varchar(255) not null, "last_name" varchar(255) not null, primary key ("id"))
+Hibernate: create table "person" ("id" bigint not null, "name" varchar(255), primary key ("id"))
+Hibernate: create table "phone" ("employee_id" bigint, "id" bigint generated by default as identity, "number" varchar(255), primary key ("id"))
+Hibernate: create table "revinfo" ("rev" integer generated by default as identity, "revtstmp" bigint, primary key ("rev"))
+Hibernate: create table "user" ("user_id" bigint not null, primary key ("user_id"))
+Hibernate: create table "user_order" ("order_id" bigint not null, primary key ("order_id"))
+Hibernate: create table "user_order_detail" ("order_detail_order_id" bigint not null unique, "user_eager_user_id" bigint not null, "user_lazy_user_id" bigint not null, primary key ("order_detail_order_id", "user_lazy_user_id"))
+Hibernate: create table "bar_aud" ("id" integer not null, "rev" integer not null, "revtype" tinyint, "created_date" bigint, "modified_date" bigint, "timestamp" bigint, "created_by" varchar(255), "modified_by" varchar(255), "name" varchar(255), "operation" varchar(255), primary key ("id", "rev"))
+Hibernate: create table "foo_aud" ("bar_id" integer, "rev" integer not null, "revtype" tinyint, "id" bigint not null, "name" varchar(255), primary key ("rev", "id"))
+Hibernate: create table "joins_employee" ("age" integer not null, "department_id" bigint, "id" bigint generated by default as identity, "name" varchar(255), primary key ("id"))
+Hibernate: alter table if exists "author_book_author_entities" add constraint "FK7uvuec4sj5hijno151bbdeuxo" foreign key ("book_author_entities_id") references "book_author_entity"
+Hibernate: alter table if exists "author_book_author_entities" add constraint "FKn16myxty73xl8guuek4w0ke81" foreign key ("author_id") references "author"
+Hibernate: alter table if exists "foo" add constraint "FKb3ipxsc39xv600e17fpm7k5j5" foreign key ("bar_id") references "bar"
+Hibernate: alter table if exists "parent" add constraint "FKtg0u76do8p1cnh6lgfvnqjg2e" foreign key ("child_fk") references "child"
+Hibernate: alter table if exists "phone" add constraint "FKsivpl49c9wcpqfxbc6i5eb8lx" foreign key ("employee_id") references "joins_employee"
+Hibernate: alter table if exists "user_order_detail" add constraint "FKs2kjxtq2yi6ou23rh81h1la1v" foreign key ("order_detail_order_id") references "user_order"
+Hibernate: alter table if exists "user_order_detail" add constraint "FK2n0lh1ds10ws7pyyh46epvfx1" foreign key ("user_lazy_user_id") references "user"
+Hibernate: alter table if exists "user_order_detail" add constraint "FKbombwm82junh33aqp0o6t7rug" foreign key ("user_eager_user_id") references "user"
+Hibernate: alter table if exists "bar_aud" add constraint "FKadf0t7l795yian748278nij4o" foreign key ("rev") references "revinfo"
+Hibernate: alter table if exists "foo_aud" add constraint "FKilekgt6y0qmabjqy90vm54ukj" foreign key ("rev") references "revinfo"
+Hibernate: alter table if exists "joins_employee" add constraint "FKcar2kt6emjf47myovd5nbhnll" foreign key ("department_id") references "department"
+[2025-12-02 15:12:43,367]-[main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:44,135]-[main] INFO  com.baeldung.specifications.join.SpecificationsJoinIntegrationTest - Started SpecificationsJoinIntegrationTest in 6.777 seconds (process running for 89.074)
+Hibernate: insert into "author" ("first_name","last_name","id") values (?,?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: insert into "author_book_author_entities" ("author_id","book_author_entities_id") values (?,?)
+Hibernate: insert into "author_book_author_entities" ("author_id","book_author_entities_id") values (?,?)
+Hibernate: select a1_0."id",a1_0."first_name",a1_0."last_name" from "author" a1_0 join "author_book_author_entities" bae1_0 on a1_0."id"=bae1_0."author_id" join "book_author_entity" bae1_1 on bae1_1."id"=bae1_0."book_author_entities_id" where bae1_1."title"=?
+Hibernate: insert into "author" ("first_name","last_name","id") values (?,?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+[2025-12-02 15:12:45,858]-[main] INFO  class com.baeldung.persistence.model.Bar - @PreUpdate
+Hibernate: insert into "author_book_author_entities" ("author_id","book_author_entities_id") values (?,?)
+Hibernate: insert into "author_book_author_entities" ("author_id","book_author_entities_id") values (?,?)
+Hibernate: select a1_0."id",a1_0."first_name",a1_0."last_name" from "author" a1_0 join "author_book_author_entities" bae1_0 on a1_0."id"=bae1_0."author_id" join "book_author_entity" bae1_1 on bae1_1."id"=bae1_0."book_author_entities_id" where a1_0."last_name"=? and bae1_1."title"=?
+Hibernate: insert into "author" ("first_name","last_name","id") values (?,?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: select a1_0."id",a1_0."first_name",a1_0."last_name" from "author" a1_0 where a1_0."last_name"=?
+Hibernate: insert into "author" ("first_name","last_name","id") values (?,?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: insert into "book_author_entity" ("title","id") values (?,default)
+Hibernate: select a1_0."id",a1_0."first_name",a1_0."last_name" from "author" a1_0 where a1_0."last_name"=? and a1_0."first_name" like ? escape ''
+[2025-12-02 15:12:45,907]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest - tearDown()
+[2025-12-02 15:12:45,912]-[main] INFO  com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest - tearDownAfterClass()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.779 s -- in com.baeldung.persistence.audit.SpringDataJPABarAuditIntegrationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.249 s -- in com.baeldung.specifications.join.SpecificationsJoinIntegrationTest
+[2025-12-02 15:12:46,055]-[SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-12-02 15:12:46,080]-[SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]
+[INFO] Results:
+[INFO]
+[WARNING] Tests run: 25, Failures: 0, Errors: 0, Skipped: 1
+[INFO]
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ spring-data-jpa-query ---
+[INFO] Building jar: C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.5.8:repackage (repackage) @ spring-data-jpa-query ---
+[INFO] Replacing main artifact C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- install:3.1.2:install (default-install) @ spring-data-jpa-query ---
+[INFO] Installing C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\pom.xml to C:\Users\Administrator\.m2\repository\com\baeldung\spring-data-jpa-query\0.0.1-SNAPSHOT\spring-data-jpa-query-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\BAEL-9529\tutorials\persistence-modules\spring-data-jpa-query\target\spring-data-jpa-query-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\baeldung\spring-data-jpa-query\0.0.1-SNAPSHOT\spring-data-jpa-query-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:20 min
+[INFO] Finished at: 2025-12-02T15:12:51-08:00
+[INFO] ------------------------------------------------------------------------
+
 C:\bael-9429\tutorials\persistence-modules\spring-data-jpa-query>mvn clean compile
 [INFO] Scanning for projects...
 Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/3.5.8/spring-boot-dependencies-3.5.8.pom
